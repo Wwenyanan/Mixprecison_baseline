@@ -1,0 +1,18 @@
+typedef double highprecision;
+int timesteps=2000;
+const highprecision dx=0.03,dy=0.03,dxdy=dx*dy;
+const highprecision tau = 0.0003; 
+const highprecision epsilonb = 0.01; 
+const highprecision kappa = 1.8; 
+const highprecision delta = 0.02;
+const highprecision aniso = 6.0; 
+const highprecision alpha = 0.9; 
+const highprecision gama = 10.0; 
+const highprecision teq = 1.0; 
+const highprecision theta0 = 0.0; 
+const highprecision dtime=1.0e-4;
+const int seed=10;
+const int dimX=512,dimY=512;
+const int unitx=16,unity=16,unitdimX=dimX/unitx,unitdimY=dimY/unity,uxd2=unitx/2,uxd2s1=uxd2-1,uxs1=unitx-1,uys1=unity-1,dimXd2=dimX/2,unitNums=unitdimX*unitdimY;
+const highprecision threshold=0.99;
+const highprecision ratio=1.0;
